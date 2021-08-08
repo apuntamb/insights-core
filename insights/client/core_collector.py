@@ -71,7 +71,7 @@ class CoreCollector(DataCollector):
 
         logger.debug('Collection finished.')
 
-        self.redact(rm_conf)
+        # self.redact(rm_conf)
 
         # collect metadata
         logger.debug('Collecting metadata...')
